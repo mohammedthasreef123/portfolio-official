@@ -5,7 +5,7 @@ import { Link } from 'react-scroll';
 
 const Home = () => {
   return (
-    <div name="home" className='w-full bg-gradient-to-b from-black via-black to-gray-800'>
+    <div name="home" className='w-full bg-gradient-to-b from-black via-black to-gray-800 pt-20'>
       <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
         <div className='flex flex-col justify-center h-full'>
           <h2 className='text-4xl sm:text-7xl font-bold text-white'>I'm a Full-Stack Developer</h2>
@@ -13,7 +13,6 @@ const Home = () => {
             Dedicated software developer with strong problem-solving skills, experienced in building, testing and deploying software. Skilled in understanding business needs, working in Agile teams, and meeting deadlines. Committed to delivering quality solutions and continuously learning new technologies.
           </p>
           <div className="flex space-x-2 mt-4 sm:space-x-5">
-            {/* Portfolio Button */}
             <Link 
               to='portfolio' 
               smooth duration={500} 
